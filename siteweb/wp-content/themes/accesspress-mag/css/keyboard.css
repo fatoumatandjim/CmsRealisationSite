@@ -1,0 +1,207 @@
+.navigation .nav-links a:focus, 
+.bttn:focus, 
+button, 
+input[type="button"]:focus, 
+input[type="reset"]:focus, 
+input[type="submit"]:focus {
+    background: #DC3522;
+    color: #ffffff !important;
+}
+
+.entry-footer a:focus {
+    color: #DC3522;
+}
+
+.navigation .nav-links a:focus{
+    background: none;
+    color: #dc3522 !important;
+}
+
+.comment-author .fn .url:focus {
+    background: #dc3522;
+    color: #FFF;
+}
+
+#top-navigation .menu li a:focus,
+#top-right-navigation .menu li a:focus,
+#footer-navigation ul li a:focus{
+    color: #cccccc;
+}
+
+#top-navigation ul li.focus > ul.sub-menu,
+#footer-navigation ul li.focus > ul.sub-menu{
+    opacity: 1;
+    visibility: visible;
+    top: 24px;
+    left: 0;
+}
+#footer-navigation ul li:focus > ul.sub-menu {
+    bottom: 28px;
+    left: 7px;
+    top: auto;
+}
+
+#top-navigation ul.sub-menu > li:focus ul,
+#footer-navigation ul.sub-menu > li:focus ul{
+    left: 100%;
+    top: 0;
+}
+#footer-navigation ul.sub-menu > li:focus ul{
+    bottom: -6px;
+    top: auto;	
+}
+
+#site-navigation .menu ul li:focus > ul.children,
+#top-right-navigation .menu li:focus > ul,#footer-navigation ul li:focus > ul {
+    display: block;
+}
+
+#site-navigation ul.menu > li:focus > a:after
+ {
+    border-bottom: 1px solid #dc3522;
+    bottom: -14px;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#site-navigation ul li.focus > a, 
+#site-navigation ul li.current-menu-item > a, 
+#site-navigation ul li.current-menu-ancestor > a{
+    color: #dc3522;
+}
+
+#site-navigation li:focus-within > ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 49px;
+    left: 0;
+    z-index: 9;
+}
+
+#site-navigation ul.sub-menu li:focus,
+ {
+    border-bottom: 1px solid #dc3522;
+}
+
+#site-navigation ul.sub-menu > li:focus  ul{
+    top: 0;
+    left: 100%;
+}
+
+.random-post a:focus{
+    color: #dc3522;
+}
+
+.search-icon > i:focus{
+    color: #dc3522;
+}
+
+.ak-search .search-form .search-submit:focus{
+    background: #a5281b;
+}
+
+.slider-wrapper .bx-wrapper:focus .bx-controls-direction{
+    opacity: 1;
+}
+
+.slider-wrapper .bx-pager-item a:focus,
+.slider-wrapper .bx-pager-item a.active{
+    background: #808080;
+}
+
+.small-slider-wrapper a:focus img,
+.slider a:focus  img{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+}
+
+.block-post-wrapper .post-title a:focus,
+.random-posts-wrapper .post-title a:focus,
+.sidebar-posts-wrapper .post-title a:focus,
+.review-posts-wrapper .single-review .post-title a:focus,
+.latest-single-post a:focus{
+    color: #DC3522;
+}
+
+.block-poston a:focus{
+    color: #DC3522;
+}
+
+.post-image:focus .big-image-overlay{
+    background: rgba(0,0,0,0.5);
+}
+
+.post-image:focus img,
+.post-img:focus img{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.post-image.non-zoomin:focus img,
+.post-img.non-zoomin:focus img,
+.non-zoomin .post-image:focus img,
+.non-zoomin .post-img:focus img{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);	
+}
+
+.post-image:focus .big-image-overlay i{
+    top: 50%;
+    opacity:1;
+    visibility: visible;
+}
+.big-image-overlay i:focus{
+    border-radius: 100%;
+}
+
+.contributors-wrapper .single-user:focus .user-name{
+    opacity: 1;
+    visibility: visible;
+}
+
+.widget_newsletterwidget .newsletter-submit:focus{
+    color: #ffffff !important;
+}
+
+.bottom-footer .ak-info a:focus{
+    color: #dc3522;
+}
+
+#footer-navigation ul li a:focus{
+    color: #c62c1a;
+}
+
+.widget ul li:focus a,
+.widget ul li:focus:before{
+    color: #DC3522;
+}
+
+.widget_tag_cloud .tagcloud > a:focus {
+    color: #dc3522;
+}
+
+#back-top:focus{
+    background: #dc3522;
+}
+
+.woocommerce #respond input#submit:focus, .woocommerce a.button:focus, .woocommerce button.button:focus, .woocommerce input.button:focus,
+.woocommerce #respond input#submit.alt:focus, .woocommerce a.button.alt:focus, .woocommerce button.button.alt:focus, .woocommerce input.button.alt:focus {
+    background-color: #B92615;
+}
+.woocommerce #respond input#submit:focus, .woocommerce a.button:focus, .woocommerce button.button:focus, .woocommerce input.button:focus {
+    color: #fff;
+}
+
+nav.woocommerce-MyAccount-navigation ul li:focus {
+   background: none;
+}
+
+nav.woocommerce-MyAccount-navigation ul li:focus a {
+   color: #e24545;
+}
